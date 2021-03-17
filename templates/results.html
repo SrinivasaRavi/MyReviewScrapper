@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+  <div class=".table-products">
+   <div class="header">Product Information</div>
+
+<!--   <table cellspacing="0">-->
+<!--      <tr>-->
+<!--         <th>Product</th>-->
+<!--         <th>speifications</th>-->
+<!--         <th>Price</th>-->
+<!--          <th>Offer Price</th>-->
+<!--          <th>Offer Percentage</th>-->
+<!--         <th width="60%">offers</th>-->
+<!--      </tr>-->
+<!--       <tr>-->
+<!--          <td>{{reviews[0]['Product']}}</td>-->
+<!--          <td>{{reviews[0]['speifications']}} </td>-->
+<!--         <td>{{reviews[0]['Price']}}</td>-->
+<!--         <td>{{reviews[0]['Offer Price']}}</td>-->
+<!--         <td>{{reviews[0]['Offer Percentage']}} </td>-->
+<!--          <td>{{reviews[0]['offers']}} </td>-->
+<!--   </table>-->
+      <table >
+      <tr><th>Product</th><td>{{reviews[0]['Product']}}</td></tr>
+          <tr><th>speifications</th><td>{{reviews[0]['speifications']}} </td></tr>
+          <tr><th>Price</th><td>{{reviews[0]['Price']}}</td></tr>
+          <tr><th>Offer Price</th><td>{{reviews[0]['Offer Price']}}</td></tr>
+          <tr><th>Offer Percentage</th><td>{{reviews[0]['Offer Percentage']}} </td></tr>
+          <tr><th>offers</th>
+              <td>
+                  <ul>
+              {% for  offer in reviews[0]['offers'] %}
+                  <li>{{offer}}</li>
+              {% endfor%}
+                  </ul>
+              </td>
+          </tr>
+
+
+      </table>
+</div>
+
+  <div class=".table-products">
+   <div class="header">Reviews</div>
+
+   <table cellspacing="0">
+      <tr>
+         <th>Customer Name</th>
+         <th>Rating</th>
+         <th>Heading</th>
+         <th width="100%">Comment</th>
+      </tr>
+         {% for review in reviews[1:] %}
+      <tr>
+          <td>{{review['Customer Name']}}</td>
+         <td>{{review['Rating']}}</td>
+         <td>{{review['CommentHead']}}</td>
+         <td>{{review['CustomerComment']}} </td>
+       {% endfor %}
+   </table>
+</div>
+<!--#FAEBEF-->
+
+
+</body>
+
+</html>

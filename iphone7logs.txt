@@ -1,0 +1,71 @@
+
+20:08:37,91 root INFO Database Connection Success
+20:08:37,91 root INFO connecting to the database called crawlerDB : Success
+20:08:40,707 root INFO Web Driver started
+20:08:52,85 root INFO Product link Fetched From Page
+20:08:54,691 root INFO Loaded Driver with Product Link
+20:08:54,741 root INFO Product title Fetched From Page
+20:08:54,787 root INFO Product pct_offer Fetched From Page
+20:08:54,882 root INFO Product price Fetched From Page
+20:08:54,924 root INFO Getting Count of Reviews From Page
+20:08:54,949 root INFO Getting Available Offers on Product From Page
+20:08:56,22 root INFO Number of Reviews to Product: 510
+20:08:56,600 root INFO current page: 1
+20:08:57,134 root INFO current page: 2
+20:08:58,652 root INFO current page: 3
+20:08:59,280 root INFO current page: 4
+20:08:59,761 root INFO current page: 5
+20:09:00,264 root INFO current page: 6
+20:09:00,719 root INFO current page: 7
+20:09:01,147 root INFO current page: 8
+20:09:01,536 root INFO current page: 9
+20:09:01,973 root INFO current page: 10
+20:09:02,471 root INFO current page: 11
+20:09:02,971 root INFO current page: 12
+20:09:03,436 root INFO current page: 13
+20:09:03,864 root INFO current page: 14
+20:09:04,385 root INFO current page: 15
+20:09:04,851 root INFO current page: 16
+20:09:05,961 root INFO current page: 17
+20:09:06,448 root INFO current page: 18
+20:09:06,993 root INFO current page: 19
+20:09:07,467 root INFO current page: 20
+20:09:07,948 root INFO current page: 21
+20:09:08,460 root INFO current page: 22
+20:09:08,993 root INFO current page: 23
+20:09:09,705 root INFO current page: 24
+20:09:10,163 root INFO current page: 25
+20:09:11,50 root INFO current page: 26
+20:09:11,721 root INFO current page: 27
+20:09:12,236 root INFO current page: 28
+20:09:14,26 root INFO current page: 29
+20:09:14,544 root INFO current page: 30
+20:09:15,124 root INFO current page: 31
+20:09:16,73 root INFO current page: 32
+20:09:16,729 root INFO current page: 33
+20:09:17,275 root INFO current page: 34
+20:09:17,868 root INFO current page: 35
+20:09:18,674 root INFO current page: 36
+20:09:19,231 root INFO current page: 37
+20:09:19,709 root INFO current page: 38
+20:09:20,206 root INFO current page: 39
+20:09:21,615 root INFO current page: 40
+20:09:23,778 root INFO current page: 41
+20:09:26,423 root INFO current page: 42
+20:09:26,962 root INFO current page: 43
+20:09:27,536 root INFO current page: 44
+20:09:28,248 root INFO current page: 45
+20:09:30,886 root INFO current page: 46
+20:09:31,602 root INFO current page: 47
+20:09:32,158 root INFO current page: 48
+20:09:32,792 root INFO current page: 49
+20:09:33,308 root INFO current page: 50
+20:09:34,117 root INFO current page: 51
+20:09:38,272 werkzeug INFO 127.0.0.1 - - [17/Mar/2021 20:09:38] "[37mPOST / HTTP/1.1[0m" 200 -
+20:09:38,384 werkzeug INFO 127.0.0.1 - - [17/Mar/2021 20:09:38] "[33mGET /style.css HTTP/1.1[0m" 404 -
+20:09:38,565 werkzeug INFO 127.0.0.1 - - [17/Mar/2021 20:09:38] "[33mGET /style.css HTTP/1.1[0m" 404 -
+20:10:10,648 root INFO Database Connection Success
+20:10:10,649 root INFO connecting to the database called crawlerDB : Success
+20:10:10,658 root INFO Search For Database : Record Exists
+20:10:10,698 werkzeug INFO 127.0.0.1 - - [17/Mar/2021 20:10:10] "[37mPOST / HTTP/1.1[0m" 200 -
+20:10:10,873 werkzeug INFO 127.0.0.1 - - [17/Mar/2021 20:10:10] "[33mGET /style.css HTTP/1.1[0m" 404 -

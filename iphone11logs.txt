@@ -1,0 +1,65 @@
+20:21:37,558 root INFO Database Connection Success
+20:21:37,559 root INFO connecting to the database called crawlerDB : Success
+20:21:41,306 root INFO Web Driver started
+20:21:52,399 root INFO Product link Fetched From Page
+20:21:54,682 root INFO Loaded Driver with Product Link
+20:21:54,721 root INFO Product title Fetched From Page
+20:21:54,757 root INFO Product pct_offer Fetched From Page
+20:21:54,832 root INFO Product price Fetched From Page
+20:21:54,869 root INFO Getting Count of Reviews From Page
+20:21:55,74 root INFO Getting Available Offers on Product From Page
+20:21:56,81 root INFO Number of Reviews to Product: 510
+20:21:56,732 root INFO current page: 1
+20:21:57,290 root INFO current page: 2
+20:21:58,75 root INFO current page: 3
+20:21:58,686 root INFO current page: 4
+20:22:00,535 root INFO current page: 5
+20:22:01,168 root INFO current page: 6
+20:22:02,122 root INFO current page: 7
+20:22:03,14 root INFO current page: 8
+20:22:03,904 root INFO current page: 9
+20:22:04,561 root INFO current page: 10
+20:22:05,167 root INFO current page: 11
+20:22:06,122 root INFO current page: 12
+20:22:06,747 root INFO current page: 13
+20:22:07,301 root INFO current page: 14
+20:22:08,699 root INFO current page: 15
+20:22:09,285 root INFO current page: 16
+20:22:10,54 root INFO current page: 17
+20:22:10,587 root INFO current page: 18
+20:22:11,690 root INFO current page: 19
+20:22:16,740 root INFO current page: 20
+20:22:20,135 root INFO current page: 21
+20:22:21,898 root INFO current page: 22
+20:22:22,651 root INFO current page: 23
+20:22:24,891 root INFO current page: 24
+20:22:25,536 root INFO current page: 25
+20:22:26,281 root INFO current page: 26
+20:22:27,85 root INFO current page: 27
+20:22:27,646 root INFO current page: 28
+20:22:28,558 root INFO current page: 29
+20:22:29,161 root INFO current page: 30
+20:22:32,20 root INFO current page: 31
+20:22:33,2 root INFO current page: 32
+20:22:33,739 root INFO current page: 33
+20:22:39,832 root INFO current page: 34
+20:22:40,648 root INFO current page: 35
+20:22:47,633 root INFO current page: 36
+20:22:48,470 root INFO current page: 37
+20:22:51,243 root INFO current page: 38
+20:22:51,942 root INFO current page: 39
+20:22:52,669 root INFO current page: 40
+20:22:54,382 root INFO current page: 41
+20:22:55,46 root INFO current page: 42
+20:22:56,340 root INFO current page: 43
+20:22:59,228 root INFO current page: 44
+20:22:59,836 root INFO current page: 45
+20:23:01,570 root INFO current page: 46
+20:23:02,262 root INFO current page: 47
+20:23:03,33 root INFO current page: 48
+20:23:03,925 root INFO current page: 49
+20:23:05,999 root INFO current page: 50
+20:23:06,800 root INFO current page: 51
+20:23:10,937 werkzeug INFO 127.0.0.1 - - [17/Mar/2021 20:23:10] "[37mPOST / HTTP/1.1[0m" 200 -
+20:23:11,58 werkzeug INFO 127.0.0.1 - - [17/Mar/2021 20:23:11] "[33mGET /style.css HTTP/1.1[0m" 404 -
+20:27:02,328 werkzeug INFO  * Detected change in 'C:\\Users\\ravia\\INeuron\\Python Projects Folder\\MyReviewScrapper\\app.py', reloading

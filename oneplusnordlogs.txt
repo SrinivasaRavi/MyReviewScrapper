@@ -1,0 +1,17 @@
+19:38:42,811 root INFO Database Connection Success
+19:38:42,811 root INFO connecting to the database called crawlerDB : Success
+19:38:43,342 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:59651/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+19:38:43,343 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:59651
+19:38:44,651 urllib3.connectionpool DEBUG http://127.0.0.1:59651 "POST /session HTTP/1.1" 200 752
+19:38:44,653 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+19:38:44,653 root INFO Web Driver started
+19:38:46,655 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:59651/session/d926511d397000ca873e8e9b2cc1bd81/url {"url": "https://www.flipkart.com/search?q=oneplusnord"}
+19:38:54,408 urllib3.connectionpool DEBUG http://127.0.0.1:59651 "POST /session/d926511d397000ca873e8e9b2cc1bd81/url HTTP/1.1" 200 14
+19:38:54,409 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+19:38:54,409 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:59651/session/d926511d397000ca873e8e9b2cc1bd81/element {"using": "css selector", "value": "div._1AtVbE.col-12-12 a._2rpwqI"}
+19:38:54,429 urllib3.connectionpool DEBUG http://127.0.0.1:59651 "POST /session/d926511d397000ca873e8e9b2cc1bd81/element HTTP/1.1" 404 1151
+19:38:54,430 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+19:38:54,430 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:59651/session/d926511d397000ca873e8e9b2cc1bd81/element {"using": "css selector", "value": "div._1AtVbE.col-12-12 a._1fQZEK"}
+19:38:54,451 urllib3.connectionpool DEBUG http://127.0.0.1:59651 "POST /session/d926511d397000ca873e8e9b2cc1bd81/element HTTP/1.1" 404 1151
+19:38:54,452 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+19:38:54,453 werkzeug INFO 127.0.0.1 - - [17/Mar/2021 19:38:54] "[37mPOST / HTTP/1.1[0m" 200 -
