@@ -35,7 +35,7 @@ def index():
             passwd = ""
             url = ""
 
-            dbConn = pymongo.MongoClient(f"""mongodb + srv: // {username}: {passwd} @ {url} / myFirstDatabase?retryWrites = true & w = majority""")  # opening a connection to Mongo
+            dbConn = pymongo.MongoClient("mongodb://localhost:27017/")  # opening a connection to Mongo
             logging.info('Database Connection Success')
             db = dbConn['crawlerDB']  # connecting to the database called crawlerDB
             logging.info('connecting to the database called crawlerDB : Success')
