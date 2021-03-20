@@ -104,8 +104,8 @@ def index():
                     current_url = f'https://www.flipkart.com{prod_html.select("div.col.JOpGWq a")[-1].get("href")}'
                 except Exception as e:
                     print(e)
-                if remaining_no_of_reviews > 510:
-                    remaining_no_of_reviews = 510
+                if remaining_no_of_reviews > 20:
+                    remaining_no_of_reviews = 20
                 page = 1
                 logging.info(f"Number of Reviews to Product: {remaining_no_of_reviews}")
                 while remaining_no_of_reviews > 0:
